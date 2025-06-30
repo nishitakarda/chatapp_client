@@ -1,8 +1,12 @@
 import React from 'react'
 
-const RightSidebar = () => {
-  return (
-    <div>RightSidebar</div>
+const RightSidebar = ({selectedUser}) => {
+  return selectedUser &&  (
+    <div>
+        <div>
+            
+        </div>
+    </div>
   )
 }
 
